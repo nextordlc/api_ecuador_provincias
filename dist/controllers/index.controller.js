@@ -20,7 +20,7 @@ const loadServiceApi = (req, res) => {
         else if (anyvalue.toString() === "api") {
             res.json({
                 message: "Bienvenido a API REST ECUADOR, este servicio fue desarrollado para listar provincias, cantones y parroquias del país de Ecuador, su uso es libre",
-                details: "Para más detalles de la configuración y uso de esta API REST dirigase a la página: **Ingrese link**",
+                details: "Para más detalles de la configuración y uso de esta API REST dirigase a la página: https://github.com/nextordlc/api_ecuador_provincias/blob/main/README.md",
                 licence: "Apache License 2.0"
             });
         }
